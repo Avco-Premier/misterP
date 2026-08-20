@@ -1,0 +1,27 @@
+{
+  "_needs_confirmation": true,
+  "_note": "No site.config.json existed at start of this SEO pass. Drafted from repo content only. order_url is a HARD-CONSTRAINT BLOCKER: every page's CTA currently points to https://misterppizza-roxborough.avcoindustries.com/order-now, an avcoindustries.com internal Avco host, which root CLAUDE.md explicitly forbids exposing in user-visible HTML. The correct public order_url (expected to be a *.direct-ordering.com subdomain or the client's own custom domain) is NOT present anywhere in this repo and could not be verified. Do not treat the avcoindustries.com URL below as approved for use in canonical/JSON-LD/OG; it is recorded only because it is what the live site currently (incorrectly) uses in its nav/CTA hrefs. A human (Yon, ordering-link owner) must supply the real direct order URL before this is fixed on-page.",
+  "restaurant_name": "Mister P Pizza and Pasta",
+  "public_domain": "https://misterppizzaroxborough.com",
+  "order_url": "https://misterppizza-roxborough.avcoindustries.com/order-now",
+  "order_url_status": "INVALID_INTERNAL_HOST_NEEDS_REPLACEMENT",
+  "phone": "(215) 509-6000",
+  "phone_tel": "tel:2155096000",
+  "address": {
+    "street": "6047 Ridge Ave",
+    "city": "Philadelphia",
+    "region": "PA",
+    "postal_code": "19128",
+    "neighborhood": "Roxborough"
+  },
+  "hours": {
+    "monday_thursday": "10:00 AM - 9:20 PM",
+    "friday_saturday": "10:00 AM - 10:20 PM",
+    "sunday": "11:00 AM - 9:20 PM"
+  },
+  "served_areas": ["Roxborough", "Philadelphia"],
+  "cuisine": "Pizza and Italian",
+  "specialties": ["pizza", "slices", "pasta", "sandwiches", "salads"],
+  "aggregateRating": null,
+  "_aggregateRating_note": "No rating data found in repo; do not add aggregateRating schema."
+}
